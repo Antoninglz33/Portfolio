@@ -28,7 +28,7 @@ li {
 ********************************************************************/
 
 header {
-  background: url(../Img/bg-1.jpg) fixed center/cover;
+  background: url(Assets/Img/bg-1.jpg) fixed center/cover;
   margin: auto;
   color: white;
   height: 100vh;
