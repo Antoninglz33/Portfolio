@@ -41,7 +41,7 @@ header {
   text-align: center;
 }
 .header-titre h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 50px auto;
   letter-spacing: 10px;
 }
@@ -98,12 +98,17 @@ header {
   align-items: center;
 }
 #cv h2 {
-  padding: 0 10px;
+  padding: 10px 10px;
   letter-spacing: 2px;
   margin-bottom: 80px;
+  border: 2px solid #666666;
+  border-radius: 8px;
+  font-weight: 500;
 }
 #cv h2:hover {
   color: rgba(102, 102, 102, 0.377);
+  background: #666666;
+  color: #f1f1f1;
 }
 .picto {
   height: 75px;
@@ -328,6 +333,27 @@ section {
 }
 
 /********************************************************************
+************************     TRANSITION     *************************
+********************************************************************/
+
+.reveal [class*="reveal-"] {
+  opacity: 0 !important;
+  transform: translateY(50px) !important;
+}
+
+[class*="reveal-"] {
+  transition: 3s cubic-bezier(0.5, 0, 0, 1);
+}
+
+.reveal-2 {
+  transition-delay: 0.4s;
+}
+
+.reveal-3 {
+  transition-delay: 0.5s;
+}
+
+/********************************************************************
 ************************     RESPONSIVE     *************************
 ********************************************************************/
 
@@ -381,5 +407,20 @@ section {
     #titre-bloc-bar h2 {
       font-size: 1.2rem;
     }
+  }
+}
+
+/*****************************************
+**************   REVEAL  ****************
+****************************************/
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal [class*="reveal-"] {
+    opacity: 1 !important;
+    transform: translateY(0px) !important;
+  }
+  [class*="reveal-"] {
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
   }
 }
