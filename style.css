@@ -31,7 +31,7 @@ header {
   background: url("Assets/Img/bg-1.jpg") fixed center/cover;
   margin: auto;
   color: white;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
