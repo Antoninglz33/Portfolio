@@ -204,6 +204,10 @@ section {
   grid-template-columns: 30% 70%;
 }
 
+.grid-3 {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
 .text-container {
   display: flex;
   align-items: center;
@@ -290,6 +294,41 @@ section {
   opacity: 1;
 }
 
+.mockup-5 {
+  width: 100%;
+  background: url(./Assets/Img/mockup-montagne.jpg) center/cover;
+  height: 500px;
+}
+.mockup-5 p {
+  text-align: center;
+  margin: 0;
+  font-size: 1.2rem;
+  width: 50%;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+.mockup-5:hover .text-container {
+  visibility: visible;
+  opacity: 1;
+}
+
+.mockup-6 {
+  width: 100%;
+  background: url(./Assets/Img/mockup-run.jpg) center/cover;
+  height: 500px;
+}
+.mockup-6 p {
+  text-align: center;
+  margin: 0;
+  font-size: 1.2rem;
+  width: 50%;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+.mockup-6:hover .text-container {
+  visibility: visible;
+  opacity: 1;
+}
 /*********************************************************************
  ****************************  FOOTER  *******************************
  *********************************************************************/
