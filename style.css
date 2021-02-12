@@ -435,6 +435,10 @@ section {
     font-size: 1.5rem;
     padding: 10px;
   }
+  header {
+    background: url("Assets/Img/bg-1.jpg") center/cover
+  }
+}
 
   @media screen and (max-width: 400px) {
     .mockup-2 p {
