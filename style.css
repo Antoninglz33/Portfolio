@@ -408,6 +408,9 @@ section {
   .grid-2 {
     display: block;
   }
+  .grid-3 {
+    display: block;
+  }
   .mockup-2 p {
     font-size: 1.1rem;
   }
