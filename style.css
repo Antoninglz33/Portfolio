@@ -98,10 +98,10 @@ header {
   align-items: center;
 }
 #cv h2 {
-  padding: 10px 10px;
+  padding: 15px 20px;
   letter-spacing: 2px;
   margin-bottom: 80px;
-  border: 2px solid #666666;
+  border: 3px solid #666666;
   border-radius: 22px;
   font-weight: 500;
 }
@@ -208,6 +208,12 @@ section {
   display: grid;
   grid-template-columns: 70% 30%;
 }
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
 .text-container {
   display: flex;
   align-items: center;
@@ -329,6 +335,42 @@ section {
   visibility: visible;
   opacity: 1;
 }
+
+.mockup-7 {
+  width: 100%;
+  background: url(./Assets/Img/mockup-resto.jpg) center/cover;
+  height: 500px;
+}
+.mockup-7 p {
+  text-align: center;
+  margin: 0;
+  font-size: 1.2rem;
+  width: 70%;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+.mockup-7:hover .text-container {
+  visibility: visible;
+  opacity: 1;
+}
+
+.mockup-8 {
+  width: 100%;
+  background: url(./Assets/Img/mockup-gaming-campus.jpg) center/cover;
+  height: 500px;
+}
+.mockup-8 p {
+  text-align: center;
+  margin: 0;
+  font-size: 1.2rem;
+  width: 50%;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+.mockup-8:hover .text-container {
+  visibility: visible;
+  opacity: 1;
+}
 /*********************************************************************
  ****************************  FOOTER  *******************************
  *********************************************************************/
@@ -411,10 +453,31 @@ section {
   .grid-3 {
     display: block;
   }
+  .grid-4 {
+    display: block;
+  }
+  .mockup-1 p {
+    font-size: 1.1rem;
+  }
   .mockup-2 p {
     font-size: 1.1rem;
   }
   .mockup-3 p {
+    font-size: 1.1rem;
+  }
+  .mockup-4 p {
+    font-size: 1.1rem;
+  }
+  .mockup-5 p {
+    font-size: 1.1rem;
+  }
+  .mockup-6 p {
+    font-size: 1.1rem;
+  }
+  .mockup-7 p {
+    font-size: 1.1rem;
+  }
+  .mockup-8 p {
     font-size: 1.1rem;
   }
   .footer {
@@ -422,6 +485,21 @@ section {
   }
   .picto {
     display: none;
+  }
+  .text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: #666666b0;
+    color: white;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.8s;
+  }
+  .contact ul {
+    padding: 0;
   }
 }
 @media screen and (max-width: 550px) {
@@ -439,20 +517,39 @@ section {
     padding: 10px;
   }
   header {
-    background: url("Assets/Img/bg-1.jpg") center/cover
+    background: url("Assets/Img/bg-1.jpg") center/cover;
   }
 }
 
-  @media screen and (max-width: 400px) {
-    .mockup-2 p {
-      font-size: 0.8rem;
-    }
-    .mockup-3 p {
-      font-size: 0.8rem;
-    }
-    #titre-bloc-bar h2 {
-      font-size: 1.2rem;
-    }
+@media screen and (max-width: 400px) {
+  .mockup-1 p {
+    width: 80%;
+  }
+  .mockup-2 p {
+    width: 80%;
+  }
+  .mockup-3 p {
+    width: 80%;
+  }
+}
+.mockup-4 p {
+  width: 80%;
+}
+.mockup-5 p {
+  width: 80%;
+}
+.mockup-6 p {
+  width: 80%;
+}
+.mockup-7 p {
+  width: 80%;
+}
+.mockup-8 p {
+  width: 80%;
+}
+
+  #titre-bloc-bar h2 {
+    font-size: 1.2rem;
   }
 }
 
