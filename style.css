@@ -134,6 +134,24 @@ section {
 #titre-bloc-barre {
   text-align: center;
 }
+
+.logo-text {
+  display: flex;
+  margin-left: 10%;
+  align-items: center;
+}
+.logo-text-js {
+  display: flex;
+  margin-left: 6%;
+  align-items: center;
+}
+
+.skill-name {
+  margin-left: 10px;
+}
+.skill-name-js {
+  margin-left: -10px;
+}
 /*********************************************************************
  ****************************  SKILL BAR  *****************************
  *********************************************************************/
@@ -163,7 +181,7 @@ section {
   height: 8px;
   border-radius: 5px;
   background: rgb(241, 241, 241);
-  width: 30%;
+  width: 60%;
   margin: 0;
 }
 
@@ -171,7 +189,7 @@ section {
   height: 8px;
   border-radius: 5px;
   background: rgb(241, 241, 241);
-  width: 10%;
+  width: 20%;
   margin: 0;
 }
 
@@ -182,9 +200,7 @@ section {
   width: 80%;
   margin: 0;
 }
-.skill-name {
-  margin-left: 52px;
-}
+
 
 /*********************************************************************
  ****************************  PORTFOLIO  ****************************
