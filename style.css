@@ -437,6 +437,7 @@ section {
 #copy {
   text-align: center;
   color: #666;
+}
 /********************************************************************
 ************************     TRANSITION     *************************
 ********************************************************************/
@@ -461,12 +462,6 @@ section {
 /********************************************************************
 ************************     RESPONSIVE     *************************
 ********************************************************************/
-
-@media screen and (max-width: 1100px) {
-  .mockup-2 p {
-    font-size: 0.8rem;
-  }
-}
 @media screen and (max-width: 850px) {
   .grid {
     display: block;
@@ -507,9 +502,11 @@ section {
   .footer {
     display: block;
   }
-  .picto {
-    display: none;
+  .picto ul {
+    margin: 0 auto;
+    padding: 10px 0;
   }
+
   .text-container {
     display: flex;
     align-items: center;
@@ -524,7 +521,16 @@ section {
   }
   .contact ul {
     padding: 0;
+    display: none;
   }
+
+  #copy {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.p-propos {
+  text-align: justify;
 }
 @media screen and (max-width: 550px) {
   .grid-skill {
