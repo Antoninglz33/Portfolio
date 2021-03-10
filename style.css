@@ -548,7 +548,8 @@ section {
     padding: 10px;
   }
   header {
-    background: url("Assets/Img/bg-1.jpg") center/cover no-repeat fixed;
+    background: url("Assets/Img/bg-1.jpg") center/cover no-repeat;
+    background-attachment: fixed;
   }
 }
 
