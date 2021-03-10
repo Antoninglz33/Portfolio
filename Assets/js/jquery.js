@@ -3,7 +3,7 @@ document.addEventListener("scroll", (e) => {
     const head = document.querySelector("header");
   
     console.log(scroll_pos);
-    scroll_pos = scroll_pos * -1 * 0.5;
+    scroll_pos = scroll_pos * -3 * 0.5;
   
     head.style.backgroundPosition = "0px " + scroll_pos + "px";
   });
