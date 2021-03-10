@@ -11,10 +11,11 @@ const handleIntersect = function (entries, observer) {
             entry.target.classList.remove('reveal')
             observer.unobserve(entry.target)
         }
-    })
+    });
 }
 
 const observer = new IntersectionObserver(handleIntersect, options);
 document.querySelectorAll('.reveal').forEach(function(r) {
     observer.observe(r)
-})
+});
+
