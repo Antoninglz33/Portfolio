@@ -548,7 +548,7 @@ section {
     padding: 10px;
   }
   header {
-    background: url("Assets/Img/bg-1.jpg") center/cover;
+    background: url("Assets/Img/bg-1.jpg") center/cover no-repeat fixed;
   }
 }
 
@@ -596,4 +596,4 @@ section {
     transition-duration: 0s !important;
     transition-delay: 0s !important;
   }
-};
+}
