@@ -1,9 +1,22 @@
-document.addEventListener("scroll", (e) => {
-    let scroll_pos = window.scrollY;
-    const head = document.querySelector("header");
-  
-    console.log(scroll_pos);
-    scroll_pos = scroll_pos * -3 * 0.5;
-  
-    head.style.backgroundPosition = "0px " + scroll_pos + "px";
-  });
+$(function(){
+    $(".background").mouseenter(function(){
+        $("#skill-per-1").animate({
+            width: '70%'
+        },1000);
+    });
+    $(".background").mouseenter(function(){
+        $("#skill-per-2").animate({
+            width: '60%'
+        },1000);
+    });
+    $(".background").mouseenter(function(){
+        $("#skill-per-3").animate({
+            width: '20%'
+        },1000);
+    });
+    $(".background").mouseenter(function(){
+        $("#skill-per-4").animate({
+            width: '10%'
+        },1000);
+    });
+});
