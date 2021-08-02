@@ -529,11 +529,13 @@ section {
   #copy {
     width: 90%;
     margin: 0 auto;
+  }
+
+  .p-propos {
+    text-align: justify;
+  }
 }
 
-.p-propos {
-  text-align: justify;
-}
 @media screen and (max-width: 550px) {
   .grid-skill {
     display: block;
