@@ -246,6 +246,10 @@ section {
   display: grid;
   grid-template-columns: 30% 70%;
 }
+.grid-5 {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
 
 .text-container {
   display: flex;
@@ -401,6 +405,42 @@ section {
   line-height: 40px;
 }
 .mockup-8:hover .text-container {
+  visibility: visible;
+  opacity: 1;
+}
+
+.mockup-9 {
+  width: 100%;
+  background: url(./Assets/Img/mockup-portfolio-argonautes.jpg) center/cover;
+  height: 500px;
+}
+.mockup-9 p {
+  text-align: center;
+  margin: 0;
+  font-size: 1.2rem;
+  width: 50%;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+.mockup-9:hover .text-container {
+  visibility: visible;
+  opacity: 1;
+}
+
+.mockup-10 {
+  width: 100%;
+  background: url(./Assets/Img/mockup-mycave2.jpg) center/cover;
+  height: 500px;
+}
+.mockup-10 p {
+  text-align: center;
+  margin: 0;
+  font-size: 1.2rem;
+  width: 50%;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+.mockup-10:hover .text-container {
   visibility: visible;
   opacity: 1;
 }
