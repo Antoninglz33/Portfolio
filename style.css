@@ -533,6 +533,9 @@ section {
   .grid-4 {
     display: block;
   }
+  .grid-5 {
+    display: block;
+  }
   .mockup-1 p {
     font-size: 1.1rem;
   }
@@ -556,6 +559,12 @@ section {
   }
   .mockup-8 p {
     font-size: 1.1rem;
+  }
+  .mockup-9 p {
+    font-size: 1.1rem;
+  }
+  .mockup-10 p {
+    font-size: 1rem;
   }
   .footer {
     display: block;
